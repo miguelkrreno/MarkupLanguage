@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE carta>
+
+<alimentos>
+    <alimento familia="legumbres">
+        <plato tipo="cocidos" calorias="1090">Garbanzos</plato>
+        <plato tipo="estofadas" calorias="690">Lentejas</plato>
+        <plato tipo="pintas" calorias="285">Alubias</plato>
+        <plato tipo="secos" calorias="346">Guisantes</plato>
+        <plato tipo="rehogadas" calorias="100">Habas</plato>
+        <plato tipo="fabadas" calorias="1300">Judias</plato>
+    </alimento>
+    <alimento familia="frutas">
+        <plato tipo="blancos" calorias="15">Esparragos</plato>
+        <plato tipo="asados" calorias="55">Pimientos</plato>
+        <plato tipo="parrilla" calorias="28">Berenjenas</plato>
+        <plato tipo="fritos" calorias="71">Tomates</plato>
+        <plato tipo="fritas" calorias="234">Patatas</plato>
+        <plato tipo="fresco" calorias="9">Apio</plato>
+    </alimento>
+    <alimento familia="pescado">
+        <plato tipo="fritos" calorias="118">Calamares</plato>
+        <plato tipo="en aceite" calorias="185">Anchoas</plato>
+        <plato tipo="plancha" calorias="92">Merluza</plato>
+        <plato tipo="fresca" calorias="145">Sardinas</plato>
+        <plato tipo="en aceite" calorias="274">Atún</plato>
+        <plato tipo="ahumado" calorias="210">Salmón</plato>
+    </alimento>
+    <alimento familia="carnes">
+        <plato tipo="escalope" calorias="326">Ternera</plato>
+        <plato tipo="asado" calorias="575">Cordero</plato>
+        <plato tipo="horno" calorias="825">Cochinillo</plato>
+        <plato tipo="asado" calorias="844">Cerdo</plato>
+        <plato tipo="parrilla" calorias="120">Pollo</plato>
+        <plato tipo="asado" calorias="232">Pato</plato>
+    </alimento>
+    <alimento familia="frutas">
+        <plato tipo="fresco" calorias="136">Aguacate</plato>
+        <plato tipo="fresco" calorias="84">Platano</plato>
+        <plato tipo="fresco" calorias="58">Cerezas</plato>
+        <plato tipo="fresco" calorias="50">Piña</plato>
+        <plato tipo="fresco" calorias="70">Pera</plato>
+        <plato tipo="fresco" calorias="73">Kiwi</plato>
+    </alimento>
+    <alimento familia="aperitivos">
+        <plato tipo="fritas" calorias="589">Aguacate</plato>
+        <plato tipo="rusa" calorias="152">Platano</plato>
+        <plato tipo="caseras" calorias="102">Cerezas</plato>
+        <plato tipo="rellenas" calorias="221">Piña</plato>
+        <plato tipo="chips" calorias="568">Pera</plato>
+        <plato tipo="cocidas" calorias="102">Kiwi</plato>
+    </alimento>
+    <alimento familia="varios">
+        <plato tipo="carne" calorias="536">Aguacate</plato>
+        <plato tipo="pollo" calorias="780">Platano</plato>
+        <plato tipo="con leche" calorias="655">Cerezas</plato>
+        <plato tipo="vainilla" calorias="259">Piña</plato>
+        <plato tipo="basica" calorias="300">Pera</plato>
+        <plato tipo="blanco" calorias="130">Kiwi</plato>
+    </alimento>
+    <alimento familia="bebidas">
+        <plato tipo="ron" calorias="327">Aguacate</plato>
+        <plato tipo="negra" calorias="110">Platano</plato>
+        <plato tipo="solo" calorias="499">Cerezas</plato>
+        <plato tipo="tinto" calorias="170">Piña</plato>
+        <plato tipo="brut" calorias="80">Pera</plato>
+        <plato tipo="con alcohol" calorias="421">Kiwi</plato>
+    </alimento>
+</alimentos>

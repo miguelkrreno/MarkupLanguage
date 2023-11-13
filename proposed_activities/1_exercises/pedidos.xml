@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE pedidos>
+
+<pedidos>
+    <pedido fecha="17-10-2022" destinatarion="Predro Martin Martinez">
+        <pedido>Tablet Samsung Galaxy tab A8</pedido>
+        <localidad>calle Virgen de la cruz 2, séptimo piso, letra A</localidad>
+    </pedido>
+</pedidos>

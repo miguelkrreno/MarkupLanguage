@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE recetario>
+
+<receta>
+    <tipo>Postre</tipo>
+    <dificultad>Media</dificultad>
+    <duracion>1 hora aprox</duracion>
+    <raciones>8 raciones</raciones>
+    <calorias>300</calorias>
+    <ingredientes>
+        <ingrediente>
+            <cantidad>250 gr</cantidad>
+            <descripcion>Calabaza asada limpia</descripcion>
+        </ingrediente>
+        <ingrediente>
+            <cantidad>200 gr</cantidad>
+            <descripcion>Panela</descripcion>
+        </ingrediente>
+        <ingrediente>
+            <cantidad>3 unidades</cantidad>
+            <descripcion>Huevos</descripcion>
+        </ingrediente>
+        <ingrediente>
+            <cantidad>70 gr</cantidad>
+            <descripcion>Aceite de girasol</descripcion>
+        </ingrediente>
+        <ingrediente>
+            <cantidad>250 gr</cantidad>
+            <descripcion>Harina reposteria</descripcion>
+        </ingrediente>
+        <ingrediente>
+            <cantidad>3 unidades</cantidad>
+            <descripcion>Sobres dobles de gaseosas</descripcion>
+        </ingrediente>
+    </ingredientes>
+    <preparacion>
+        <paso>1. Forrar un molde rectangular de 18 x 30 cm aprox</paso>
+        <paso>2. Batir la calabaza asada con la paleta</paso>
+        <paso>3. Añadir los huevos y seguir batiendo hasta que la panela este disuelta</paso>
+        <paso>4. Añadir el aceite y seguir batiendo hasta que quede mezclado</paso>
+        <paso>5. Añadir la harina y los sobres blancos. Remover con cuidado y sin que queden grumos</paso>
+        <paso>6. Añadir los sobres azules.Remover hasta que quede mezclado</paso>
+        <paso>7. Verter la mezcla en el molde ya preparado. Espolvorear la superficie con azucar y
+            canela</paso>
+        <paso>8. Hornear a 175ºC durante 25 minutos con horno precalentado</paso>
+    </preparacion>
+</receta>
