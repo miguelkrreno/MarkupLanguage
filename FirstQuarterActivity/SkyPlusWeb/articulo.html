@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>SkyPlus+</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/styleArticle.css">
+    </head>
+    <body>       
+        <header>
+            <div class="menu__flex">
+                <div class="menu__column menu__column1 logo">
+                    <img src="https://theglobalplus.com/wp-content/uploads/2021/06/skyplus-banner.png" width="200px" alt="Logo"/>                    
+                </div>
+                <nav class="menu__column menu__column2 menu__flex">
+                    <p> <a href="./index.html">Home</a></p>
+                    <p class="white">|</p>
+                    <p><a href="./articulo.html">Crear Articulo</a></p>
+                    <p class="white">|</p>
+                    <p><a href="./contacto.html">Contacto</a></p>
+                </nav>
+            </div>
+        </header>
+        <main class="container">
+            <div class="banner">
+                <img src="https://png.pngtree.com/thumb_back/fw800/background/20210906/pngtree-ai-artificial-intelligence-starry-sky-portrait-blue-technology-banner-image_804237.jpg" class="imgBanner cover " alt="banner">
+            </div>
+            <section>
+                <div>
+                    <h1>Nuevo Articulo</h1>
+                </div>
+                <form class="form">
+                    <h2>Autor:</h2>
+                    <div class="form__flex">
+                        <div>
+                            <label for="name" class="form__label">Nombre:</label>
+                            <input type="text" id="name" class="form__input" placeholder=" ">
+                        </div>
+                        <div>
+                            <label for="name" class="form__label">Apellidos:</label>
+                            <input type="text" id="name" class="form__input" placeholder=" ">
+                        </div>                        
+                        <div>
+                            <label for="age" class="form__label">Edad:</label>
+                            <input  type="number" id="age" class="form__input" >
+                        </div>
+                        <div>
+                            <label for="genero-select" class="form__label">Genero:</label>                      
+                            <select name="genero" id="genero-select" class="form__input">
+                              <option value="">Selecciona un genero...</option>
+                              <option value="hombre">Hombre</option>
+                              <option value="mujer">Mujer</option>
+                              <option value="No binario">No binario</option>
+                              <option value="No quiero decirlo">No quiero decirlo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form__flex">
+                        <div>
+                            <label for="email" class="form__label">Email:</label>
+                            <input type="email" id="email" class="form__input" placeholder=" ">
+                        </div>
+                        <div>
+                            <label for="phone" class="form__label">Telefono:</label>
+                            <input type="phone" id="phone" class="form__input" placeholder=" ">
+                        </div>   
+                    </div>
+                    <br>
+                    <h2>Articulo:</h2>
+                    <div class="form__flex">
+                        <div class="form__flex">
+                            <label for="title" class="form__label">Titulo:</label>
+                            <input type="text" id="title" class="form__input" placeholder=" ">
+                            <label for="img" class="form__label">URL Imagen:</label>
+                            <input type="url" id="img" class="form__input" placeholder=" ">
+                            <label for="date" class="form__label">Fecha de Publicacion:</label>
+                            <input  type="date" id="date" class="form__input">
+                        </div>                        
+                    </div>
+
+                    <div class="form__flex">
+                        <textarea class="form__textaria" name="message" id="message" placeholder="Contenido...."></textarea>
+                    </div>  
+
+                    <div class="container__flex">
+                        <input id="input-radio-condiciones" type="radio" name="condiciones" required>
+                        <label for="input-radio-condiciones">Acepto los terminos y condiciones</label>                    
+                    <div>
+
+                    <input type="submit" class="form_submit" value="Publicar">         
+                </form>    
+            </section>
+        </main>        
+        <footer>
+            <div class="footer">
+                <p class="footer__p">Copyright © 2023 </p>
+            </div>
+        </footer>
+    </body>
+</html>
